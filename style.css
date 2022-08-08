@@ -1,0 +1,30 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background:linear-gradient(90deg, rgba(161, 232, 143, 0.5) 0%, rgba(244, 106, 106, 0.5));
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card{
+    background-color: rgba(141, 237, 205,0.5);
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+div img{
+
+    border-radius: 50%  ;
+}
